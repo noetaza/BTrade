@@ -80,14 +80,12 @@ public class Profile extends AppCompatActivity {
             case R.id.edit_p:
                 //metodoEdit()
                 Intent intent1 = new Intent(this, EditProfile.class);
-                intent1.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(intent1);
                 return true;
 
             case R.id.settings:
                 //metodoSettings()
                 Intent intent2 = new Intent(this, ViewProfile.class);
-                intent2.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(intent2);
                 return true;
 

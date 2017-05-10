@@ -1,5 +1,6 @@
 package com.example.noe.btrade;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -78,6 +79,14 @@ public class EditProfile extends AppCompatActivity {
         switch (item.getItemId()) {
             case R.id.check_p:
                 //metodoEdit()
+                Intent intent1 = new Intent(this, Profile.class);
+                startActivity(intent1);
+                return true;
+
+            case R.id.cancel_p:
+                //metodoEdit()
+                Intent intent2 = new Intent(this, Profile.class);;
+                startActivity(intent2);
                 return true;
 
             default:
