@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">BTrade</string>
+    <string name="profile">Perfil</string>
+    <string name="editprofile">Editar Perfil</string>
+    <string name="viewprofile">Ver Perfil</string>
+
+
+    <!-- Strings User -->
+    <string name="user1_profile">"jirachi"</string>
+    <string name="user1_imgbg">"bg"</string>
+    <string name="user1_id">"@jirachi"</string>
+    <string name="user1_name">Max</string>
+    <string name="user1_phone">987654321</string>
+    <string name="user1_email">user@btrade.com</string>
+    <string name="user1_address">Peru</string>
+    <string name="user1_genre">Masculino</string>
+    <string-array name = "user1_genBook">
+        <item>gen1</item>
+        <item>gen2</item>
+        <item>gen3</item>
+        <item>gen4</item>
+        <item>gen5</item>
+    </string-array>
+
+    <!-- Strings User 2 -->
+    <string name="user2_profile">"cherrim"</string>
+    <string name="user2_imgbg">"bg2"</string>
+    <string name="user2_id">"@alice"</string>
+    <string name="user2_name">Alice</string>
+    <string name="user2_phone">912345678</string>
+    <string name="user2_email">user2@btrade.com</string>
+    <string name="user2_address">France</string>
+    <string name="user2_genre">Female</string>
+    <string-array name = "user2_genBook">
+        <item>gen2</item>
+        <item>gen3</item>
+        <item>gen5</item>
+    </string-array>
+
+    <!-- Generos de Libros -->
+    <string name = "gen1">Científicos</string>
+    <string name = "gen2">Ficción</string>
+    <string name = "gen3">Poesía</string>
+    <string name = "gen4">Referencia</string>
+    <string name = "gen5">Instructivos</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+
+</resources>
